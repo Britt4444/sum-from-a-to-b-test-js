@@ -1,7 +1,7 @@
 const chai = require('chai');
 const expect = chai.expect;
 
-const sum = require('./index');
+const sum = require('../index');
 
 describe('sum', function() {
   it('returns 1 when summing 1 to 1', () => {
